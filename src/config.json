@@ -1,0 +1,4 @@
+{
+	"apiUrl": "https://api.mcchampionship.com/v1",
+	"inviteUrl": "https://discord.com/api/oauth2/authorize?client_id=1119327663937564742&permissions=517543840832&scope=bot%20applications.commands"
+}
