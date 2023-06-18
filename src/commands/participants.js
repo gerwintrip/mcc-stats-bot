@@ -15,12 +15,12 @@ module.exports = {
 		const eventDate = new Date(eventData['date']);
 		const reply = {
 			embeds: [{
-				title: 'MCC ' + eventData['event'] + ' Participants',
+				title: `MCC ${eventData['event']} Participants`,
 				color: 0xff0000,
 				thumbnail: {
 					url: 'https://mcc.live/favicon.png',
 				},
-				description: Date.now() < eventDate ? `The event will happen on <t:${Math.floor(eventDate.getTime() / 1000)}:f>.\n` : `The event happened on <t:${Math.floor(eventDate.getTime() / 1000)}:f>.\n`,
+				description: Date.now() < eventDate ? `MCC ${eventData['event']} will happen on <t:${Math.floor(eventDate.getTime() / 1000)}:f>.\n` : `MCC ${eventData['event']} happened on <t:${Math.floor(eventDate.getTime() / 1000)}:f>.\n`,
 				fields: [],
 				footer: {
 					text: 'Data provided by the official MCC Event API - Bot not affiliated with Noxcrew or MCC.',
