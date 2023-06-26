@@ -36,6 +36,13 @@ async function getParticipants(team) {
 	return participantsData;
 }
 
+/*
+    * Gets the rundown data of a specified event cycle from the API.
+    * @param {string} event The event to get the rundown of.
+    * @returns {Object} The rundown data.
+    * @returns {null} If the API request failed.
+    * @returns {null} If the event is not found.
+*/
 async function getRundown(event) {
 	const apiResponse = await axios.get(rundownEndpoint(event));
 	if (apiResponse.status != 200) {
