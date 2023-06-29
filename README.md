@@ -1,6 +1,11 @@
 # MCC Stats Discord Bot
 This is a Discord bot designed to provide statistics from the Minecraft event [Minecraft Championships](https://mcchampionship.com/) made by [Noxcrew](https://noxcrew.com). It is built using [Discord.js](https://discord.js.org/) and [Node.js](https://nodejs.org/).
 
+
+## Public Bot
+
+### You can add the public bot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id%253D1119327663937564742%2526permissions%253D517543840832%2526scope%253Dbot%2520applications.commands).
+
 ## Installation
 
 This project is made using Node.js and requires Node.js to be installed on your system. You can download Node.js from the [official website](https://nodejs.org/). You will also need to have a Discord bot token and client id. See the [Discord](#discord) section for more information. This project was built with Node.js version 20.3.1 and Discord.js version 14.11.0. It is recommended to use these versions or newer.
