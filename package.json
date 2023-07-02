@@ -4,9 +4,9 @@
   "description": "A Discord bot to display stats about Minecraft Championships",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/app.js",
     "deploy-commands": "node src/deploy-commands.js",
-    "dev": "nodemon src/index.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "GerwinT",
